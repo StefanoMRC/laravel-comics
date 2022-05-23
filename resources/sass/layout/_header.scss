@@ -3,7 +3,7 @@
     .cont-in-blu{
         width: 80%;
         display: flex;
-        justify-content: end;
+        justify-content:flex-end;
         color: white;
         .txt-sx{
             text-transform: uppercase;
@@ -37,9 +37,10 @@
     }
 }
 .hero{
-    background-image: url('../images/jumbotron.jpg');
+    
     height: 500px;
-    background-position: center;
+    
     background-size: cover;
     background-repeat: no-repeat;
+    background-image: url('../images/jumbotron.jpg');
 }
