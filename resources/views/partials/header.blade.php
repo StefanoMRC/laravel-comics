@@ -32,6 +32,12 @@
         <input type="text" placeholder="Search">
     </div>
     <div class='hero'>
+        
 
     </div>
+    <div class='cont-meta'>
+            <div class='meta'>
+                <h2>current series</h2>
+            </div>
+        </div>
 </header>
