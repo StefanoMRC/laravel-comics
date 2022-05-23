@@ -64,3 +64,32 @@
   text-transform: uppercase;
   color: white;
 }
+
+.cont-footer-top {
+  background-color: #0282f9;
+  padding: 20px 0;
+}
+.cont-footer-top .cont-img {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cont-footer-top .cont-img .col {
+  width: calc(20% - 20px);
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cont-footer-top .cont-img .col span {
+  text-transform: uppercase;
+  color: white;
+  margin-left: 5px;
+  font-size: 1.5em;
+}
+.cont-footer-top .cont-img .col img {
+  width: 70px;
+  height: 90px;
+}
