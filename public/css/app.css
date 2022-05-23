@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .cont-top-blu {
   background-color: #0282f9;
 }
@@ -6,5 +12,38 @@
   width: 80%;
   display: flex;
   justify-content: end;
+  color: white;
+}
+
+.cont-top-blu .cont-in-blu .txt-sx {
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+
+.cont-top-blu .cont-in-blu .txt-dx {
+  text-transform: uppercase;
+}
+
+.cot-bottom {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.cot-bottom .menu li {
+  display: inline-block;
+}
+
+.cot-bottom .menu li a {
+  text-decoration: none;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0px 20px;
+  padding-bottom: 30px;
+  color: black;
 }
 

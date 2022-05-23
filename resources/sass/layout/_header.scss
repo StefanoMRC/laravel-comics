@@ -1,0 +1,38 @@
+.cont-top-blu{
+    background-color: #0282f9;
+    .cont-in-blu{
+        width: 80%;
+        display: flex;
+        justify-content: end;
+        color: white;
+        .txt-sx{
+            text-transform: uppercase;
+            margin-right: 30px;
+        }
+        .txt-dx{
+            text-transform: uppercase;
+        }
+    }
+}
+.cot-bottom{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    .menu{
+        li{
+            display: inline-block;
+            a{
+                text-decoration: none;
+                font-size: 1.5em;
+                text-transform: uppercase;
+                font-weight: bold;
+                padding: 0px 20px;
+                padding-bottom: 30px;
+                color: black;
+            }
+        }
+    }
+}
