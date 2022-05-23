@@ -31,4 +31,7 @@
         </ul>
         <input type="text" placeholder="Search">
     </div>
+    <div class='hero'>
+
+    </div>
 </header>
