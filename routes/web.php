@@ -19,3 +19,12 @@ Route::get('/', function () {
     return view('home',[ 'fumetti' => $data ]);
 
 })->name('home');
+
+Route::get('/fumetto/{id}', function ($id) {
+
+    $data=config('fumetti');
+    $fumetto=$data[$id];
+
+    return view('fumetto',[ 'singolo_fumetto' => $fumetto ]);
+
+})->name('fumetto');

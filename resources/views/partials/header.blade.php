@@ -35,9 +35,5 @@
         
 
     </div>
-    <div class='cont-meta'>
-            <div class='meta'>
-                <h2>current series</h2>
-            </div>
-        </div>
+
 </header>
