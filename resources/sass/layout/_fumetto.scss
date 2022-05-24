@@ -1,0 +1,68 @@
+@import '../utility/utility';
+.container{
+    background-color: #0282f9;
+    height: 100px;
+    position: relative;
+    .cont_singolo_fumetto{
+        position: absolute;
+        top: -230px;
+        left: 350px;
+    }
+}
+.cont_descrizione{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    .col_1{
+        width: 70%;
+        margin-right: 40px;
+        .titolo{
+            font-size: 2.5em;
+        }
+        .descrizione{
+            font-size: 1.3em;
+            text-align: justify;
+        }
+    }
+}
+.cont_price{
+    .disponibile{
+        display: flex;
+        justify-content: space-between;
+        font-size: 2em;
+        background-color: #55ba59;
+        margin: 20px 0px;
+        .prezzo{
+            width: 65%;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 5px;
+            border: 1px solid rgba(0, 0, 0, 0.507);
+            
+        }
+        .controllo_disponibile{
+            width: 35%;
+            text-align: center;
+            padding: 10px 5px;
+            border: 1px solid rgba(0, 0, 0, 0.507);
+            .freccia{
+                font-size: 0.7em;
+            }
+        }
+    }
+}
+
+
+.col_2{
+    width: 30%;
+    img{
+        width: 100%;
+    }
+    h2{
+        text-align: right;
+    }
+}
+
+
