@@ -53,8 +53,6 @@
         }
     }
 }
-
-
 .col_2{
     width: 30%;
     img{
@@ -65,4 +63,60 @@
     }
 }
 
+.container_2{
+    background-color: #f6f6f6;
+    .cont_principale_artisti{
+        width: 70%;
+        margin: auto;
+        display: flex;
+        .cont_artisti{
+            width: 50%;
+            padding: 20px;
+            h2{
+                padding-bottom: 30px;
+            }
+            .artisti{
+                display: flex;
+                padding: 10px 0;
+                border-top: 1px solid rgba(0, 0, 0, 0.329);
+                .col_3{
+                    width: 40%;
+                }
+                .col_4{
+                    width: 60%;
+                    a{
+                        text-decoration: none;
+                        font-weight: bold;
+                        color: #0282f9;
+                    }
+                }
+            }
+            .scrittori{
+                border-top: 1px solid rgba(0, 0, 0, 0.342);
+                border-bottom: 1px solid rgba(0, 0, 0, 0.329);
+                padding: 10px 0;
+                display: flex;
+                .col_3{
+                    width: 40%;
+                }
+                .col_4{
+                    width: 60%;
+                    a{
+                        text-decoration: none;
+                        font-weight: bold;
+                        color: #0282f9;
 
+                    }
+                }
+            }
+        }
+        .cont_specifiche{
+            width: 50%;
+            padding: 20px;
+            h2{
+                padding-bottom: 30px;
+            }
+        }
+    }
+    
+}

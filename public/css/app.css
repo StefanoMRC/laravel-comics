@@ -136,6 +136,42 @@
   color: rgba(0, 0, 0, 0.507);
 }
 
+.color_blu {
+  color: #0282f9;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.p-10 {
+  padding: 15px 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.b-top {
+  border-top: 1px solid rgba(0, 0, 0, 0.329);
+}
+
+.b-bottom {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.329);
+}
+
+.fs-1 {
+  font-size: 1.3em;
+}
+
 .container {
   background-color: #0282f9;
   height: 100px;
@@ -198,4 +234,60 @@
 }
 .col_2 h2 {
   text-align: right;
+}
+
+.container_2 {
+  background-color: #f6f6f6;
+}
+.container_2 .cont_principale_artisti {
+  width: 70%;
+  margin: auto;
+  display: flex;
+}
+.container_2 .cont_principale_artisti .cont_artisti {
+  width: 50%;
+  padding: 20px;
+}
+.container_2 .cont_principale_artisti .cont_artisti h2 {
+  padding-bottom: 30px;
+}
+.container_2 .cont_principale_artisti .cont_artisti .artisti {
+  display: flex;
+  padding: 10px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.329);
+}
+.container_2 .cont_principale_artisti .cont_artisti .artisti .col_3 {
+  width: 40%;
+}
+.container_2 .cont_principale_artisti .cont_artisti .artisti .col_4 {
+  width: 60%;
+}
+.container_2 .cont_principale_artisti .cont_artisti .artisti .col_4 a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #0282f9;
+}
+.container_2 .cont_principale_artisti .cont_artisti .scrittori {
+  border-top: 1px solid rgba(0, 0, 0, 0.342);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.329);
+  padding: 10px 0;
+  display: flex;
+}
+.container_2 .cont_principale_artisti .cont_artisti .scrittori .col_3 {
+  width: 40%;
+}
+.container_2 .cont_principale_artisti .cont_artisti .scrittori .col_4 {
+  width: 60%;
+}
+.container_2 .cont_principale_artisti .cont_artisti .scrittori .col_4 a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #0282f9;
+}
+.container_2 .cont_principale_artisti .cont_specifiche {
+  width: 50%;
+  padding: 20px;
+}
+.container_2 .cont_principale_artisti .cont_specifiche h2 {
+  padding-bottom: 30px;
 }
