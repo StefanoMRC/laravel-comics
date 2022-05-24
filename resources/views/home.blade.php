@@ -1,22 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{asset('css/app.css')}}">
-    <title>Document</title>
-</head>
-<body>
-    <!-- header -->
-    @include('partials.header');
-    <!-- header -->
+@extends('layout.layout')
+    
     
     <!-- main -->
+    @section('cont')
+        <div class="cont-principale-fumetti">
+            <div  class="cont-fumetto">
+                @foreach ($fumetti as $key=>$fumetto)
+                    <div class="fumetto">
+                        <a href="">
+                            <img src="{{$fumetto['thumb']}}" alt="">
+                            <h2>{{$fumetto['title']}}</h2>
+                        </a>
+                    </div>
+                @endforeach
+                
+            </div>
+        </div>
+    @endsection
     <!-- main -->
 
-    <!-- footer -->
-    @include('partials.footer');
-    <!-- footer -->
-</body>
-</html>
+    
